@@ -1,0 +1,270 @@
+@charset "UTF-8";
+.indexBody
+{
+	/* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header {
+	box-shadow: 0 5px 5px lightgray;
+	height: 104px;
+	position: relative;
+}
+
+.headerDefault
+{
+	background-image: url("./images/background.jpg");
+	box-shadow: 0 5px 5px lightgray;
+	height: 104px;
+	position: relative;
+}
+
+body,html
+{
+	height: 100%;
+    margin: 0;
+}
+
+button
+{
+	width:100px;
+	background: rgba(76, 175, 80, 0.1);
+	float:right;
+}
+
+.bigTitle {
+	bottom: 0px;
+	color: #939384;
+	font-family: Tahoma, sans-serif;
+	font-size: 36pt;
+	padding: 10px;
+	text-align: center
+}
+
+.itemImage{
+	float: left;
+	margin: 2.5%;
+	padding: 10px;
+	width: 150px;
+	height: 220px;
+}
+
+.oneField
+{
+	background:white;
+	padding: 10px;
+	margin: 10px;
+	margin-left:150px;
+	border-radius:10px;
+	border-style: solid;
+    border-color: black;
+    font-size: 18px;
+    width:200px;
+}
+
+.loginField
+{
+	background: rgba(76, 175, 80, 0.5);
+	margin: auto;
+	margin-top:150px;
+	padding: 10px;
+	padding-top:5px;
+	width: 350px;
+    text-align:center;
+    border-radius:10px;
+	border-style: solid;
+    border-color: black;
+    font-size: 18px;
+
+}
+
+.oneItem{
+	margin: 20px;
+	border-radius: 5px;
+	float: left;
+	padding: 10px;
+	width: 200px;
+	height: 370px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px gray;
+	text-align:center;
+}
+
+.OneItemBody{
+	background-image: url("./images/InformationBackgound.jpg");
+}
+
+.information
+{
+	margin: auto;
+    padding: 10px;
+	width: 500px;
+	height: 100%;
+	text-align:center;
+}
+
+.ImageInformation{
+	margin: auto;
+	padding: 10px;
+	width: 350px;
+	height: 220px;
+}
+
+.value{
+	width:200px;
+}
+
+.RegisterBody
+{
+	/* The image used */
+    background-image: url("images/rg_bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    overflow-y: hidden;
+}
+
+.LoginBody{
+	background-image: url("./images/login.jpg");
+	background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+
+.shoppingcart{
+	background-image: url("./images/shoppingcart.jpg");
+	background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+
+.checkout{
+	background-image: url("./images/shoppingcart.jpg");
+
+}
+
+.review{
+	background:url("./images/review.jpg");
+}
+
+.history{
+	background:url("./images/receipt.png");
+}
+
+.leftArial{
+	background:white;
+	float:left;
+	width:280px;
+	height:800px;
+	font-size: 0.8em;
+	border-radius: 25px;
+}
+
+.container
+{
+	background: white;
+	width: 1000px;
+	height: 800px;
+	margin-left: 280px;
+	box-shadow: 5px 5px  gray;
+	border-radius: 25px;
+	padding-right: -50px;
+	margin: auto;
+	
+}
+
+.ac_set_bg
+{
+	 /* The image used */
+    background-image: url("images/ac_set_bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+.ac_set_left
+{
+	margin-left: 15px;
+	margin-top:15px;
+	padding-top:10px;
+}
+
+dt
+{
+	background: lightgray;
+	margin: 10px;
+	padding: 5px;
+	
+}
+
+.iframeContent
+{
+	float:left;
+	padding-left:10px;
+	width:700px;
+	height: 85%;
+	border: none;
+}
+
+.login_bg
+{
+	/* The image used */
+    background-image: url("images/login_bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    overflow-y: hidden;
+}
+
+.orderhistory_bg
+{
+	background-image: url("images/orderHistory_bg.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+.orderHistory_field
+{
+	background: rgba(76, 175, 80, 0.5);
+	margin: auto;
+	margin-top:10px;
+	padding: 10px;
+	padding-top:5px;
+	width:500px;
+	text-align:center;
+    border-radius:10px;
+	border-style: solid;
+    border-color: black;
+    font-size: 18px;
+}
+
+.fileChooser
+{
+	margin-top:2px;
+	float:right;
+}
